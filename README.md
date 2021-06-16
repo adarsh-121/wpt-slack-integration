@@ -23,21 +23,25 @@
  * Try hitting '/submittest' from your local host e.g. http://localhost:8080/submittest
  * Pass "URL to be tested" and "secret_API_KEY", "location" in request Body under "raw", make sure to select content type "JSON"/"XML"
  * Request Body example: 
+ 
   {
      "url":"https://www.youtube.com/",
      "key":"seceret_API_key"
      "location": "Dulles:Chrome.4G"
   }
+  
+
+<img width="453" alt="postman" src="https://user-images.githubusercontent.com/81590480/122231688-402ed180-ced8-11eb-9cbd-6d495f3f830b.PNG">
+
 
  * After hitting the above URI, you should get "statusCode: 200" and once the response is generated in pingback, test results will be posted in slack channel. See below snippet
 
- ![image](https://user-images.githubusercontent.com/81590480/119186416-b553e600-ba95-11eb-8945-c75ff819c8c8.png)
+ <img width="540" alt="slack" src="https://user-images.githubusercontent.com/81590480/122232011-8b48e480-ced8-11eb-9fd8-05794081a81c.PNG">
 
 
 ##### 4. Create new slack app>> From Scratch
 
  ![image](https://user-images.githubusercontent.com/81590480/119186520-d288b480-ba95-11eb-9a7b-ff0e91db5968.png)
-
 
  * OK, you’ve created it! Now what? Well, we’re going to want to install the Slack App into your workspace and to install this in your workspace we have to add at least one feature or permission scope for the app. Click on the “permission scope” link there (alternatively, you can click on OAuth & Permissions in the sidebar. You’ll see Scopes on your page next.
 
@@ -51,4 +55,4 @@
 
  * Once all these things are done, run your application and hit /submittest API from postman or any testing tool. You will get your desired results in your slack channel once pingback url has successfully captured test results  
 
- ![image](https://user-images.githubusercontent.com/81590480/119186724-1b406d80-ba96-11eb-85cd-259e67afa283.png)
+<img width="540" alt="slack" src="https://user-images.githubusercontent.com/81590480/122232219-b2071b00-ced8-11eb-87ba-28db9e007610.PNG">

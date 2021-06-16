@@ -49,7 +49,7 @@
 
  ![image](https://user-images.githubusercontent.com/81590480/119186606-f3e9a080-ba95-11eb-82da-1bd9cd3c0613.png)
 
- * After Re-Installing the app to your workspace, you can see OAuth tokens are added under user and bot token: Please take user_OAuth_token and paste it under application.properties file
+ * After Re-Installing the app to your workspace, you can see OAuth tokens are added under user and bot token: Please take bot_OAuth_token and paste it under application.properties file
 
  ![image](https://user-images.githubusercontent.com/81590480/119186695-12e83280-ba96-11eb-8f65-6ca7adf5d8ef.png)
 
